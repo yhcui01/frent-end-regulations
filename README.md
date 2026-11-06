@@ -2,6 +2,10 @@
 
 本存档来自 [Alibaba f2e-spec](https://github.com/alibaba/f2e-spec)，下载日期为 2026-11-06。
 
+## 在线浏览
+
+中文站点：<https://yhcui01.github.io/frent-end-regulations/zh/>
+
 ## 本地浏览
 
 在 macOS 中双击 `启动本地网页.command`，浏览器会自动打开完整的中文规约网站。终端窗口需保持打开，按 `Control + C` 停止服务。
