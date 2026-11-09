@@ -27,8 +27,39 @@
     </script>
     <script type="module" crossorigin src="/f2e-spec/assets/index-D76_8B6k.js"></script>
     <link rel="stylesheet" crossorigin href="/f2e-spec/assets/index-BgQ7-LHS.css">
+    <style>
+      .galaxy-brand-bar {
+        align-items: center;
+        background: #fff;
+        border-bottom: 1px solid #e5e9f2;
+        box-sizing: border-box;
+        display: flex;
+        height: 64px;
+        padding: 0 24px;
+      }
+
+      .galaxy-brand-bar img {
+        display: block;
+        height: auto;
+        width: 181px;
+      }
+
+      @media (max-width: 640px) {
+        .galaxy-brand-bar {
+          height: 56px;
+          padding: 0 16px;
+        }
+
+        .galaxy-brand-bar img {
+          width: 150px;
+        }
+      }
+    </style>
   </head>
   <body>
+    <header class="galaxy-brand-bar">
+      <img src="/f2e-spec/assets/galaxy-data-center.svg" alt="Galaxy Data Center">
+    </header>
     <div id="root"></div>
   </body>
 </html>
